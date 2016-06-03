@@ -7,7 +7,7 @@
         android:id="@+id/vp_guide"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-"
+
     <Button
         android:id="@+id/btn_start"
         android:layout_width="wrap_content"
@@ -16,10 +16,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="60dp"
         android:background="@drawable/btn_guide_selector"
-        android:text="开始体验"
-        android:textColor="@color/txt_guide_selector"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
+        android:text="开始体验"
+        android:textColor="@color/txt_guide_selector"
         android:visibility="invisible" />
 
     <RelativeLayout
@@ -32,8 +32,8 @@
         <LinearLayout
             android:id="@+id/ll_container"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" 
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
         </LinearLayout>
 
         <ImageView
